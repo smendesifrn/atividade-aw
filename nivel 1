@@ -10,7 +10,28 @@
         background-image: url("fundo.jpg");
     }
 </style>
+<style type="text/css">
+    .menu ul{
+        background-color: lightsalmon;
+        width: 300px;
+        margin: 16px 0;
+        padding: 0;
+    }
+    .menu li a{
+        display: block;
+        color: rgb(255, 229, 219);
+        padding: 8px 16px;
+    }
+    .menu li a:hover{
+        background-color: orangered;
+    }
+</style>
 <body>
-    
+    <nav class="menu">
+        <ul>
+            <li> <a href="#"> Cidadania: Direitos e Deveres </a> </li>
+            <li> <a href="#"> Política </a> </li>
+        </ul>
+    </nav>
 </body>
 </html>
