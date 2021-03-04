@@ -9,6 +9,17 @@
     body{
         background-image: url("fundo.jpg");
     }
+    h1{
+        color: coral;
+    }
+    footer{
+    position: fixed;
+    bottom: 0;
+    }
+    a{
+        text-decoration: none;
+        color: coral;
+    }
 </style>
 <style type="text/css">
     .menu ul{
@@ -19,8 +30,10 @@
     }
     .menu li a{
         display: block;
-        color: rgb(255, 229, 219);
+        color: rgb(255, 221, 205);
         padding: 8px 16px;
+        text-decoration: none;
+        font-size: large;
     }
     .menu li a:hover{
         background-color: orangered;
@@ -33,5 +46,9 @@
             <li> <a href="#"> Política </a> </li>
         </ul>
     </nav>
+
+    <footer>
+        <a href="file:///C:/Users/Meu%20Computador/Documents/Projeto/html/in%C3%ADcio.html">Página Anterior</a>
+    </footer>
 </body>
 </html>
