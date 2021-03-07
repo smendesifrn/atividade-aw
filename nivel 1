@@ -7,7 +7,7 @@
 </head>
 <style>
     body{
-        background-image: url("fundo.jpg");
+        background-image: url("../img/fundo.jpg");
     }
     h1{
         color: coral;
@@ -42,13 +42,12 @@
 <body>
     <nav class="menu">
         <ul>
-            <li> <a href="#"> Cidadania: Direitos e Deveres </a> </li>
-            <li> <a href="#"> Política </a> </li>
+            <li> <a href="file:///C:/Users/Meu%20Computador/Documents/Projeto/html/direitodever.html"> Cidadania: Direitos e Deveres </a> </li>
+            <li> <a href="file:///C:/Users/Meu%20Computador/Documents/Projeto/html/politica.html"> Política: Os Três Poderes </a> </li>
         </ul>
     </nav>
-
-    <footer>
-        <a href="file:///C:/Users/Meu%20Computador/Documents/Projeto/html/in%C3%ADcio.html">Página Anterior</a>
-    </footer>
 </body>
+<footer>
+    <a href="file:///C:/Users/Meu%20Computador/Documents/Projeto/html/in%C3%ADcio.html">Página Anterior</a>
+</footer>
 </html>
